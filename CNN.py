@@ -25,7 +25,8 @@ while True:
                     print("LEFT")
                 else:
                     print("FORWARD")
-            
+        else:
+            print("spin")
         annotated_frame = r.plot()
         cv2.imshow("YOLO Bottle Detection", annotated_frame)
 
